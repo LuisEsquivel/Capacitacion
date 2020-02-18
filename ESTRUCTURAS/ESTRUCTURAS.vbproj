@@ -99,6 +99,11 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>DSCotizaciones.xsd</DependentUpon>
     </Compile>
+    <Compile Include="Catalogos\DSEmpleadosUriel.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DSEmpleadosUriel.xsd</DependentUpon>
+    </Compile>
     <Compile Include="Catalogos\DSProductos.Designer.vb">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -200,6 +205,17 @@
     </None>
     <None Include="Catalogos\DSCotizaciones.xss">
       <DependentUpon>DSCotizaciones.xsd</DependentUpon>
+    </None>
+    <None Include="Catalogos\DSEmpleadosUriel.xsc">
+      <DependentUpon>DSEmpleadosUriel.xsd</DependentUpon>
+    </None>
+    <None Include="Catalogos\DSEmpleadosUriel.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DSEmpleadosUriel.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Catalogos\DSEmpleadosUriel.xss">
+      <DependentUpon>DSEmpleadosUriel.xsd</DependentUpon>
     </None>
     <None Include="Catalogos\DSProductos.xsc">
       <DependentUpon>DSProductos.xsd</DependentUpon>

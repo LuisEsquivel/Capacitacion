@@ -196,6 +196,12 @@
     <Compile Include="Catalogos\FRMCotizaciones.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Catalogos\FRMEmpleados_Uriel.Designer.vb">
+      <DependentUpon>FRMEmpleados_Uriel.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Catalogos\FRMEmpleados_Uriel.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Catalogos\FRMProductos.Designer.vb">
       <DependentUpon>FRMProductos.vb</DependentUpon>
     </Compile>
@@ -312,6 +318,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Catalogos\FRMCotizaciones.resx">
       <DependentUpon>FRMCotizaciones.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Catalogos\FRMEmpleados_Uriel.resx">
+      <DependentUpon>FRMEmpleados_Uriel.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Catalogos\FRMProductos.resx">
       <DependentUpon>FRMProductos.vb</DependentUpon>

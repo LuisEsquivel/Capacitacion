@@ -22,9 +22,9 @@ Partial Class FRMVenta
     'No lo modifique con el editor de código.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
-        Dim DataGridViewCellStyle1 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle2 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle3 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle7 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle8 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle9 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Me.BtnBuscar = New System.Windows.Forms.Button()
         Me.BtnSalir = New System.Windows.Forms.Button()
         Me.BtnCancelar = New System.Windows.Forms.Button()
@@ -81,7 +81,7 @@ Partial Class FRMVenta
         '
         'BtnBuscar
         '
-        Me.BtnBuscar.Location = New System.Drawing.Point(574, 12)
+        Me.BtnBuscar.Location = New System.Drawing.Point(575, 12)
         Me.BtnBuscar.Name = "BtnBuscar"
         Me.BtnBuscar.Size = New System.Drawing.Size(66, 76)
         Me.BtnBuscar.TabIndex = 35
@@ -99,7 +99,7 @@ Partial Class FRMVenta
         '
         'BtnCancelar
         '
-        Me.BtnCancelar.Location = New System.Drawing.Point(508, 12)
+        Me.BtnCancelar.Location = New System.Drawing.Point(510, 12)
         Me.BtnCancelar.Name = "BtnCancelar"
         Me.BtnCancelar.Size = New System.Drawing.Size(66, 76)
         Me.BtnCancelar.TabIndex = 33
@@ -108,7 +108,7 @@ Partial Class FRMVenta
         '
         'BtnGuardar
         '
-        Me.BtnGuardar.Location = New System.Drawing.Point(443, 12)
+        Me.BtnGuardar.Location = New System.Drawing.Point(445, 12)
         Me.BtnGuardar.Name = "BtnGuardar"
         Me.BtnGuardar.Size = New System.Drawing.Size(66, 76)
         Me.BtnGuardar.TabIndex = 32
@@ -117,7 +117,7 @@ Partial Class FRMVenta
         '
         'BtnModificar
         '
-        Me.BtnModificar.Location = New System.Drawing.Point(378, 12)
+        Me.BtnModificar.Location = New System.Drawing.Point(380, 12)
         Me.BtnModificar.Name = "BtnModificar"
         Me.BtnModificar.Size = New System.Drawing.Size(66, 76)
         Me.BtnModificar.TabIndex = 31
@@ -126,7 +126,7 @@ Partial Class FRMVenta
         '
         'BtnNuevo
         '
-        Me.BtnNuevo.Location = New System.Drawing.Point(248, 12)
+        Me.BtnNuevo.Location = New System.Drawing.Point(250, 12)
         Me.BtnNuevo.Name = "BtnNuevo"
         Me.BtnNuevo.Size = New System.Drawing.Size(66, 76)
         Me.BtnNuevo.TabIndex = 30
@@ -210,7 +210,7 @@ Partial Class FRMVenta
         'DtpFechaDeAlta
         '
         Me.DtpFechaDeAlta.Format = System.Windows.Forms.DateTimePickerFormat.[Short]
-        Me.DtpFechaDeAlta.Location = New System.Drawing.Point(611, 106)
+        Me.DtpFechaDeAlta.Location = New System.Drawing.Point(606, 105)
         Me.DtpFechaDeAlta.Name = "DtpFechaDeAlta"
         Me.DtpFechaDeAlta.Size = New System.Drawing.Size(98, 20)
         Me.DtpFechaDeAlta.TabIndex = 38
@@ -434,7 +434,7 @@ Partial Class FRMVenta
         '
         'BtnBajas
         '
-        Me.BtnBajas.Location = New System.Drawing.Point(313, 12)
+        Me.BtnBajas.Location = New System.Drawing.Point(315, 12)
         Me.BtnBajas.Name = "BtnBajas"
         Me.BtnBajas.Size = New System.Drawing.Size(66, 76)
         Me.BtnBajas.TabIndex = 42
@@ -467,10 +467,10 @@ Partial Class FRMVenta
         'PRECIO_PRODUCTO_DEC
         '
         Me.PRECIO_PRODUCTO_DEC.DataPropertyName = "PRECIO_PRODUCTO_DEC"
-        DataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle1.Format = "C2"
-        DataGridViewCellStyle1.NullValue = Nothing
-        Me.PRECIO_PRODUCTO_DEC.DefaultCellStyle = DataGridViewCellStyle1
+        DataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle7.Format = "C2"
+        DataGridViewCellStyle7.NullValue = Nothing
+        Me.PRECIO_PRODUCTO_DEC.DefaultCellStyle = DataGridViewCellStyle7
         Me.PRECIO_PRODUCTO_DEC.HeaderText = "PRECIO PRODUCTO"
         Me.PRECIO_PRODUCTO_DEC.Name = "PRECIO_PRODUCTO_DEC"
         Me.PRECIO_PRODUCTO_DEC.ReadOnly = True
@@ -479,8 +479,8 @@ Partial Class FRMVenta
         'CANTIDAD_INT
         '
         Me.CANTIDAD_INT.DataPropertyName = "CANTIDAD_INT"
-        DataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        Me.CANTIDAD_INT.DefaultCellStyle = DataGridViewCellStyle2
+        DataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        Me.CANTIDAD_INT.DefaultCellStyle = DataGridViewCellStyle8
         Me.CANTIDAD_INT.HeaderText = "CANTIDAD"
         Me.CANTIDAD_INT.Name = "CANTIDAD_INT"
         Me.CANTIDAD_INT.ReadOnly = True
@@ -488,10 +488,10 @@ Partial Class FRMVenta
         'TOTAL_PRODUCTO_DEC
         '
         Me.TOTAL_PRODUCTO_DEC.DataPropertyName = "TOTAL_PRODUCTO_DEC"
-        DataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle3.Format = "C2"
-        DataGridViewCellStyle3.NullValue = Nothing
-        Me.TOTAL_PRODUCTO_DEC.DefaultCellStyle = DataGridViewCellStyle3
+        DataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle9.Format = "C2"
+        DataGridViewCellStyle9.NullValue = Nothing
+        Me.TOTAL_PRODUCTO_DEC.DefaultCellStyle = DataGridViewCellStyle9
         Me.TOTAL_PRODUCTO_DEC.HeaderText = "TOTAL PRODUCTO"
         Me.TOTAL_PRODUCTO_DEC.Name = "TOTAL_PRODUCTO_DEC"
         Me.TOTAL_PRODUCTO_DEC.ReadOnly = True
@@ -517,7 +517,7 @@ Partial Class FRMVenta
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.White
-        Me.ClientSize = New System.Drawing.Size(717, 652)
+        Me.ClientSize = New System.Drawing.Size(716, 652)
         Me.Controls.Add(Me.BtnBajas)
         Me.Controls.Add(Me.LblEstatus)
         Me.Controls.Add(Me.GroupBox3)

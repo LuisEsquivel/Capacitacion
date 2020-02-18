@@ -86,6 +86,7 @@
     <Compile Include="Accesos\PermisosDAL.vb" />
     <Compile Include="Catalogos\ClientesDAL.vb" />
     <Compile Include="Catalogos\CotizacionesDAL.vb" />
+    <Compile Include="Catalogos\EmpleadosUrielDAL.vb" />
     <Compile Include="Catalogos\ProductosDAL.vb" />
     <Compile Include="Accesos\RolesDAL.vb" />
     <Compile Include="Catalogos\ProveedoresDAL.vb" />
