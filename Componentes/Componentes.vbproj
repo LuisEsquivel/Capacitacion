@@ -128,5 +128,9 @@
   <ItemGroup>
     <Folder Include="Resourses\" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\Debug\Componentes.dll" />
+    <Content Include="bin\Debug\Componentes.pdb" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
