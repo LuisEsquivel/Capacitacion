@@ -79,11 +79,10 @@
             dt = New ESTRUCTURAS.DSClientes.TBLCLIENTEDataTable
             SQL.FillDt(dt)
             If dt.Rows.Count > 0 Then
-                Llenar(dt.Rows(0), clientes)
                 Return True
             End If
         Catch ex As Exception
-            MsgBox("Error sl agregar cliente" & ex.Message)
+            MsgBox("Error sl agregar empleado" & ex.Message)
         End Try
 
         Return False

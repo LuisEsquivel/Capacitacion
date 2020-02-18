@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DSEmpleadosUriel" targetNamespace="http://tempuri.org/DSEmpleadosUriel.xsd" xmlns:mstns="http://tempuri.org/DSEmpleadosUriel.xsd" xmlns="http://tempuri.org/DSEmpleadosUriel.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="CAP_DBConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="CAP_DBConnectionString (MySettings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.ESTRUCTURAS.My.MySettings.GlobalReference.Default.CAP_DBConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DSEmpleadosUriel" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DSEmpleadosUriel" msprop:Generator_UserDSName="DSEmpleadosUriel">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="TBLEMPLEADOS_URIEL" msprop:Generator_TableClassName="TBLEMPLEADOS_URIELDataTable" msprop:Generator_TableVarName="tableTBLEMPLEADOS_URIEL" msprop:Generator_TablePropName="TBLEMPLEADOS_URIEL" msprop:Generator_RowDeletingName="TBLEMPLEADOS_URIELRowDeleting" msprop:Generator_RowChangingName="TBLEMPLEADOS_URIELRowChanging" msprop:Generator_RowEvHandlerName="TBLEMPLEADOS_URIELRowChangeEventHandler" msprop:Generator_RowDeletedName="TBLEMPLEADOS_URIELRowDeleted" msprop:Generator_UserTableName="TBLEMPLEADOS_URIEL" msprop:Generator_RowChangedName="TBLEMPLEADOS_URIELRowChanged" msprop:Generator_RowEvArgName="TBLEMPLEADOS_URIELRowChangeEvent" msprop:Generator_RowClassName="TBLEMPLEADOS_URIELRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="CVE_EMPLEADO_INT" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columnCVE_EMPLEADO_INT" msprop:Generator_ColumnPropNameInRow="CVE_EMPLEADO_INT" msprop:Generator_ColumnPropNameInTable="CVE_EMPLEADO_INTColumn" msprop:Generator_UserColumnName="CVE_EMPLEADO_INT" type="xs:int" />
+              <xs:element name="NOMBRE_VAR" msprop:Generator_ColumnVarNameInTable="columnNOMBRE_VAR" msprop:Generator_ColumnPropNameInRow="NOMBRE_VAR" msprop:Generator_ColumnPropNameInTable="NOMBRE_VARColumn" msprop:Generator_UserColumnName="NOMBRE_VAR" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="APELLIDO_VAR" msprop:Generator_ColumnVarNameInTable="columnAPELLIDO_VAR" msprop:Generator_ColumnPropNameInRow="APELLIDO_VAR" msprop:Generator_ColumnPropNameInTable="APELLIDO_VARColumn" msprop:Generator_UserColumnName="APELLIDO_VAR" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="FECHA_ALTA_DATE" msprop:Generator_ColumnVarNameInTable="columnFECHA_ALTA_DATE" msprop:Generator_ColumnPropNameInRow="FECHA_ALTA_DATE" msprop:Generator_ColumnPropNameInTable="FECHA_ALTA_DATEColumn" msprop:Generator_UserColumnName="FECHA_ALTA_DATE" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="FECHA_MOD_DATE" msprop:Generator_ColumnVarNameInTable="columnFECHA_MOD_DATE" msprop:Generator_ColumnPropNameInRow="FECHA_MOD_DATE" msprop:Generator_ColumnPropNameInTable="FECHA_MOD_DATEColumn" msprop:Generator_UserColumnName="FECHA_MOD_DATE" type="xs:dateTime" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:TBLEMPLEADOS_URIEL" />
+      <xs:field xpath="mstns:CVE_EMPLEADO_INT" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>
