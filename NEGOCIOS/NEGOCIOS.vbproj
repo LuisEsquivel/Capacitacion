@@ -86,6 +86,7 @@
     <Compile Include="Accesos\PermisosBL.vb" />
     <Compile Include="Catalogos\ClientesBL.vb" />
     <Compile Include="Catalogos\CotizacionesBL.vb" />
+    <Compile Include="Catalogos\Empleados_Govea_BL.vb" />
     <Compile Include="Catalogos\ProductosBL.vb" />
     <Compile Include="Accesos\RolesBL.vb" />
     <Compile Include="Catalogos\ProveedoresBL.vb" />
