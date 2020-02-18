@@ -1,0 +1,425 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{33D1658C-2006-4DB8-B635-AA58BFA8D92F}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Cap.My.MyApplication</StartupObject>
+    <RootNamespace>Cap</RootNamespace>
+    <AssemblyName>Cap</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Cap.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Cap.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>Off</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1358.0\lib\net40\Microsoft.ReportViewer.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Design, Version=15.3.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1358.0\lib\net40\Microsoft.ReportViewer.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1358.0\lib\net40\Microsoft.ReportViewer.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.Types, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.SqlServer.Types.14.0.1016.290\lib\net40\Microsoft.SqlServer.Types.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Configuration.ConfigurationManager, Version=4.0.1.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Configuration.ConfigurationManager.4.5.0\lib\net461\System.Configuration.ConfigurationManager.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.OracleClient" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net" />
+    <Reference Include="System.Security.AccessControl, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Security.AccessControl.4.5.0\lib\net461\System.Security.AccessControl.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Permissions, Version=4.0.1.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Security.Permissions.4.5.0\lib\net461\System.Security.Permissions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Principal.Windows, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Security.Principal.Windows.4.5.0\lib\net461\System.Security.Principal.Windows.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceProcess" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Accesos\FRMLogin.Designer.vb">
+      <DependentUpon>FRMLogin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Accesos\FRMLogin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Accesos\FRMMenu.Designer.vb">
+      <DependentUpon>FRMMenu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Accesos\FRMMenu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Accesos\FRMPermisos.Designer.vb">
+      <DependentUpon>FRMPermisos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Accesos\FRMPermisos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Browse\FRMBrowseClientes.Designer.vb">
+      <DependentUpon>FRMBrowseClientes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Browse\FRMBrowseClientes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Browse\FRMBrowseCotizaciones.Designer.vb">
+      <DependentUpon>FRMBrowseCotizaciones.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Browse\FRMBrowseCotizaciones.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Browse\FRMBrowseProductos.Designer.vb">
+      <DependentUpon>FRMBrowseProductos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Browse\FRMBrowseProductos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Browse\FRMBrowseProveedores.Designer.vb">
+      <DependentUpon>FRMBrowseProveedores.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Browse\FRMBrowseProveedores.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Browse\FRMBrowseRoles.Designer.vb">
+      <DependentUpon>FRMBrowseRoles.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Browse\FRMBrowseRoles.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Browse\FRMBrowseSucursal.Designer.vb">
+      <DependentUpon>FRMBrowseSucursal.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Browse\FRMBrowseSucursal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Browse\FRMBrowseUsuarios.Designer.vb">
+      <DependentUpon>FRMBrowseUsuarios.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Browse\FRMBrowseUsuarios.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Browse\FRMBrowseVentas.Designer.vb">
+      <DependentUpon>FRMBrowseVentas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Browse\FRMBrowseVentas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Catalogos\FRMClientes.Designer.vb">
+      <DependentUpon>FRMClientes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Catalogos\FRMClientes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Catalogos\FRMCotizaciones.Designer.vb">
+      <DependentUpon>FRMCotizaciones.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Catalogos\FRMCotizaciones.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Catalogos\FRMProductos.Designer.vb">
+      <DependentUpon>FRMProductos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Catalogos\FRMProductos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Accesos\FRMRoles.Designer.vb">
+      <DependentUpon>FRMRoles.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Accesos\FRMRoles.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Catalogos\FRMProveedores.Designer.vb">
+      <DependentUpon>FRMProveedores.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Catalogos\FRMProveedores.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Catalogos\FRMSucursales.Designer.vb">
+      <DependentUpon>FRMSucursales.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Catalogos\FRMSucursales.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Catalogos\FRMUsuarios.Designer.vb">
+      <DependentUpon>FRMUsuarios.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Catalogos\FRMUsuarios.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Catalogos\FRMVenta.Designer.vb">
+      <DependentUpon>FRMVenta.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Catalogos\FRMVenta.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Compartidas\Generales.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Reportes\Cotizaciones\FRMReporteDeCotizaciones.Designer.vb">
+      <DependentUpon>FRMReporteDeCotizaciones.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\Cotizaciones\FRMReporteDeCotizaciones.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reportes\Ventas\FRMReportesDeVentas.Designer.vb">
+      <DependentUpon>FRMReportesDeVentas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\Ventas\FRMReportesDeVentas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reportes\Viewers\FRMReporteCotizacion.Designer.vb">
+      <DependentUpon>FRMReporteCotizacion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\Viewers\FRMReporteCotizacion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reportes\Viewers\FRMReportViewer.designer.vb">
+      <DependentUpon>FRMReportViewer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\Viewers\FRMReportViewer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Accesos\FRMLogin.resx">
+      <DependentUpon>FRMLogin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Accesos\FRMMenu.resx">
+      <DependentUpon>FRMMenu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Accesos\FRMPermisos.resx">
+      <DependentUpon>FRMPermisos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Browse\FRMBrowseClientes.resx">
+      <DependentUpon>FRMBrowseClientes.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Browse\FRMBrowseCotizaciones.resx">
+      <DependentUpon>FRMBrowseCotizaciones.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Browse\FRMBrowseProductos.resx">
+      <DependentUpon>FRMBrowseProductos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Browse\FRMBrowseProveedores.resx">
+      <DependentUpon>FRMBrowseProveedores.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Browse\FRMBrowseRoles.resx">
+      <DependentUpon>FRMBrowseRoles.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Browse\FRMBrowseSucursal.resx">
+      <DependentUpon>FRMBrowseSucursal.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Browse\FRMBrowseUsuarios.resx">
+      <DependentUpon>FRMBrowseUsuarios.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Browse\FRMBrowseVentas.resx">
+      <DependentUpon>FRMBrowseVentas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Catalogos\FRMClientes.resx">
+      <DependentUpon>FRMClientes.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Catalogos\FRMCotizaciones.resx">
+      <DependentUpon>FRMCotizaciones.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Catalogos\FRMProductos.resx">
+      <DependentUpon>FRMProductos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Accesos\FRMRoles.resx">
+      <DependentUpon>FRMRoles.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Catalogos\FRMProveedores.resx">
+      <DependentUpon>FRMProveedores.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Catalogos\FRMSucursales.resx">
+      <DependentUpon>FRMSucursales.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Catalogos\FRMUsuarios.resx">
+      <DependentUpon>FRMUsuarios.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Catalogos\FRMVenta.resx">
+      <DependentUpon>FRMVenta.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\Cotizaciones\FRMReporteDeCotizaciones.resx">
+      <DependentUpon>FRMReporteDeCotizaciones.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\Designs\rdlcConsecutivoCotizaciones.rdlc" />
+    <EmbeddedResource Include="Reportes\Designs\rdlcConsecutivoDeCotizacionesDesglosado.rdlc" />
+    <EmbeddedResource Include="Reportes\Designs\rdlcDetalleDeCotizaciones.rdlc" />
+    <EmbeddedResource Include="Reportes\Designs\rdlcDetalleDeVentas.rdlc" />
+    <EmbeddedResource Include="Reportes\Designs\rdlcConsecutivoVentasDesglosado.rdlc" />
+    <EmbeddedResource Include="Reportes\Designs\rdlcConsecutivoVentas.rdlc" />
+    <EmbeddedResource Include="Reportes\Designs\rdlcVentas_Netas_X_Clie.rdlc" />
+    <EmbeddedResource Include="Reportes\Ventas\FRMReportesDeVentas.resx">
+      <DependentUpon>FRMReportesDeVentas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\Viewers\FRMReporteCotizacion.resx">
+      <DependentUpon>FRMReporteCotizacion.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\Viewers\FRMReportViewer.resx">
+      <DependentUpon>FRMReportViewer.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\DataSources\ESTRUCTURAS.DSCotizaciones+TBLCOTIZACIONDataTable.datasource" />
+    <None Include="My Project\DataSources\ESTRUCTURAS.DSReporteDeCotizaciones+TBLCOTIZACIONDataTable.datasource" />
+    <None Include="My Project\DataSources\ESTRUCTURAS.DSReporteDeCotizaciones+TBLDETALLE_COTIZACIONDataTable.datasource" />
+    <None Include="My Project\DataSources\ESTRUCTURAS.DSSucursales+TBLSUCURSALDataTable.datasource" />
+    <None Include="My Project\DataSources\ESTRUCTURAS.DSVentas+TBLDETALLE_VENTADataTable.datasource" />
+    <None Include="My Project\DataSources\ESTRUCTURAS.DSVentas+TBLVENTADataTable.datasource" />
+    <None Include="My Project\DataSources\NEGOCIOS.ReporteDeCotizacionesBL.datasource" />
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Componentes\Componentes.vbproj">
+      <Project>{ce848ff8-d5ce-4810-856b-8b0ed42478a2}</Project>
+      <Name>Componentes</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DATOS\DATOS.vbproj">
+      <Project>{b8f18d40-b5a8-4080-a81d-2c4a0fdeee21}</Project>
+      <Name>DATOS</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ESTRUCTURAS\ESTRUCTURAS.vbproj">
+      <Project>{ad2c0476-f478-4e01-9eb8-02f45d9e6e65}</Project>
+      <Name>ESTRUCTURAS</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\NEGOCIOS\NEGOCIOS.vbproj">
+      <Project>{a0cf7695-710d-449e-8c05-c716fcf1cf53}</Project>
+      <Name>NEGOCIOS</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icono-agregar.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\trans.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="SqlServerTypes\Loader.cs" />
+    <Content Include="SqlServerTypes\readme.htm" />
+    <None Include="Resources\novo.jpg" />
+    <Content Include="Resources\strange.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="SqlServerTypes\x64\" />
+    <Folder Include="SqlServerTypes\x86\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+</Project>

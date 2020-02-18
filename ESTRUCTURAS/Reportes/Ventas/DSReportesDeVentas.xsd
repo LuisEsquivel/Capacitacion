@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DSReportesDeVentas" targetNamespace="http://tempuri.org/DSReportesDeVentas.xsd" xmlns:mstns="http://tempuri.org/DSReportesDeVentas.xsd" xmlns="http://tempuri.org/DSReportesDeVentas.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DSReportesDeVentas" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DSReportesDeVentas" msprop:Generator_UserDSName="DSReportesDeVentas">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="TBLVENTA" msprop:Generator_TableClassName="TBLVENTADataTable" msprop:Generator_TableVarName="tableTBLVENTA" msprop:Generator_TablePropName="TBLVENTA" msprop:Generator_RowDeletingName="TBLVENTARowDeleting" msprop:Generator_RowChangingName="TBLVENTARowChanging" msprop:Generator_RowEvHandlerName="TBLVENTARowChangeEventHandler" msprop:Generator_RowDeletedName="TBLVENTARowDeleted" msprop:Generator_UserTableName="TBLVENTA" msprop:Generator_RowChangedName="TBLVENTARowChanged" msprop:Generator_RowEvArgName="TBLVENTARowChangeEvent" msprop:Generator_RowClassName="TBLVENTARow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="CVE_VENTA_INT" msdata:ReadOnly="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columnCVE_VENTA_INT" msprop:Generator_ColumnPropNameInRow="CVE_VENTA_INT" msprop:Generator_ColumnPropNameInTable="CVE_VENTA_INTColumn" msprop:Generator_UserColumnName="CVE_VENTA_INT" type="xs:int" />
+              <xs:element name="CVE_SUC_VAR" msprop:Generator_ColumnVarNameInTable="columnCVE_SUC_VAR" msprop:Generator_ColumnPropNameInRow="CVE_SUC_VAR" msprop:Generator_ColumnPropNameInTable="CVE_SUC_VARColumn" msprop:Generator_UserColumnName="CVE_SUC_VAR" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CVE_CLIENTE_INT" msprop:Generator_ColumnVarNameInTable="columnCVE_CLIENTE_INT" msprop:Generator_ColumnPropNameInRow="CVE_CLIENTE_INT" msprop:Generator_ColumnPropNameInTable="CVE_CLIENTE_INTColumn" msprop:Generator_UserColumnName="CVE_CLIENTE_INT" type="xs:int" minOccurs="0" />
+              <xs:element name="SUBTOTAL_DEC" msprop:Generator_ColumnVarNameInTable="columnSUBTOTAL_DEC" msprop:Generator_ColumnPropNameInRow="SUBTOTAL_DEC" msprop:Generator_ColumnPropNameInTable="SUBTOTAL_DECColumn" msprop:Generator_UserColumnName="SUBTOTAL_DEC" type="xs:decimal" minOccurs="0" />
+              <xs:element name="IVA_DEC" msprop:Generator_ColumnVarNameInTable="columnIVA_DEC" msprop:Generator_ColumnPropNameInRow="IVA_DEC" msprop:Generator_ColumnPropNameInTable="IVA_DECColumn" msprop:Generator_UserColumnName="IVA_DEC" type="xs:decimal" minOccurs="0" />
+              <xs:element name="TOTAL_DEC" msprop:Generator_ColumnVarNameInTable="columnTOTAL_DEC" msprop:Generator_ColumnPropNameInRow="TOTAL_DEC" msprop:Generator_ColumnPropNameInTable="TOTAL_DECColumn" msprop:Generator_UserColumnName="TOTAL_DEC" type="xs:decimal" minOccurs="0" />
+              <xs:element name="FECHA_ALTA_DEC" msprop:Generator_ColumnVarNameInTable="columnFECHA_ALTA_DEC" msprop:Generator_ColumnPropNameInRow="FECHA_ALTA_DEC" msprop:Generator_ColumnPropNameInTable="FECHA_ALTA_DECColumn" msprop:Generator_UserColumnName="FECHA_ALTA_DEC" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="FECHA_MOD_DATE" msprop:Generator_ColumnVarNameInTable="columnFECHA_MOD_DATE" msprop:Generator_ColumnPropNameInRow="FECHA_MOD_DATE" msprop:Generator_ColumnPropNameInTable="FECHA_MOD_DATEColumn" msprop:Generator_UserColumnName="FECHA_MOD_DATE" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="CVE_EMPLEADO_VAR" msprop:Generator_ColumnVarNameInTable="columnCVE_EMPLEADO_VAR" msprop:Generator_ColumnPropNameInRow="CVE_EMPLEADO_VAR" msprop:Generator_ColumnPropNameInTable="CVE_EMPLEADO_VARColumn" msprop:Generator_UserColumnName="CVE_EMPLEADO_VAR" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CVE_EMPLEADO_MOD_VAR" msprop:Generator_ColumnVarNameInTable="columnCVE_EMPLEADO_MOD_VAR" msprop:Generator_ColumnPropNameInRow="CVE_EMPLEADO_MOD_VAR" msprop:Generator_ColumnPropNameInTable="CVE_EMPLEADO_MOD_VARColumn" msprop:Generator_UserColumnName="CVE_EMPLEADO_MOD_VAR" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ESTATUS_INT" msprop:Generator_ColumnVarNameInTable="columnESTATUS_INT" msprop:Generator_ColumnPropNameInRow="ESTATUS_INT" msprop:Generator_ColumnPropNameInTable="ESTATUS_INTColumn" msprop:Generator_UserColumnName="ESTATUS_INT" type="xs:int" minOccurs="0" />
+              <xs:element name="NOMBRE_SUC_VAR" msprop:Generator_ColumnVarNameInTable="columnNOMBRE_SUC_VAR" msprop:Generator_ColumnPropNameInRow="NOMBRE_SUC_VAR" msprop:Generator_ColumnPropNameInTable="NOMBRE_SUC_VARColumn" msprop:Generator_UserColumnName="NOMBRE_SUC_VAR" type="xs:string" minOccurs="0" />
+              <xs:element name="NOMBRE_VAR" msprop:Generator_ColumnVarNameInTable="columnNOMBRE_VAR" msprop:Generator_ColumnPropNameInRow="NOMBRE_VAR" msprop:Generator_ColumnPropNameInTable="NOMBRE_VARColumn" msprop:Generator_UserColumnName="NOMBRE_VAR" type="xs:string" minOccurs="0" />
+              <xs:element name="ESTATUS_VAR" msprop:Generator_ColumnVarNameInTable="columnESTATUS_VAR" msprop:Generator_ColumnPropNameInRow="ESTATUS_VAR" msprop:Generator_ColumnPropNameInTable="ESTATUS_VARColumn" msprop:Generator_UserColumnName="ESTATUS_VAR" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="TBLDETALLE_VENTA" msprop:Generator_TableClassName="TBLDETALLE_VENTADataTable" msprop:Generator_TableVarName="tableTBLDETALLE_VENTA" msprop:Generator_TablePropName="TBLDETALLE_VENTA" msprop:Generator_RowDeletingName="TBLDETALLE_VENTARowDeleting" msprop:Generator_RowChangingName="TBLDETALLE_VENTARowChanging" msprop:Generator_RowEvHandlerName="TBLDETALLE_VENTARowChangeEventHandler" msprop:Generator_RowDeletedName="TBLDETALLE_VENTARowDeleted" msprop:Generator_UserTableName="TBLDETALLE_VENTA" msprop:Generator_RowChangedName="TBLDETALLE_VENTARowChanged" msprop:Generator_RowEvArgName="TBLDETALLE_VENTARowChangeEvent" msprop:Generator_RowClassName="TBLDETALLE_VENTARow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="CVE_VENTA_INT" msprop:Generator_ColumnVarNameInTable="columnCVE_VENTA_INT" msprop:Generator_ColumnPropNameInRow="CVE_VENTA_INT" msprop:Generator_ColumnPropNameInTable="CVE_VENTA_INTColumn" msprop:Generator_UserColumnName="CVE_VENTA_INT" type="xs:int" minOccurs="0" />
+              <xs:element name="CVE_PRODUCTO_VAR" msprop:Generator_ColumnVarNameInTable="columnCVE_PRODUCTO_VAR" msprop:Generator_ColumnPropNameInRow="CVE_PRODUCTO_VAR" msprop:Generator_ColumnPropNameInTable="CVE_PRODUCTO_VARColumn" msprop:Generator_UserColumnName="CVE_PRODUCTO_VAR" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PRECIO_PRODUCTO_DEC" msprop:Generator_ColumnVarNameInTable="columnPRECIO_PRODUCTO_DEC" msprop:Generator_ColumnPropNameInRow="PRECIO_PRODUCTO_DEC" msprop:Generator_ColumnPropNameInTable="PRECIO_PRODUCTO_DECColumn" msprop:Generator_UserColumnName="PRECIO_PRODUCTO_DEC" type="xs:decimal" minOccurs="0" />
+              <xs:element name="CANTIDAD_INT" msprop:Generator_ColumnVarNameInTable="columnCANTIDAD_INT" msprop:Generator_ColumnPropNameInRow="CANTIDAD_INT" msprop:Generator_ColumnPropNameInTable="CANTIDAD_INTColumn" msprop:Generator_UserColumnName="CANTIDAD_INT" type="xs:int" minOccurs="0" />
+              <xs:element name="TOTAL_PRODUCTO_DEC" msprop:Generator_ColumnVarNameInTable="columnTOTAL_PRODUCTO_DEC" msprop:Generator_ColumnPropNameInRow="TOTAL_PRODUCTO_DEC" msprop:Generator_ColumnPropNameInTable="TOTAL_PRODUCTO_DECColumn" msprop:Generator_UserColumnName="TOTAL_PRODUCTO_DEC" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

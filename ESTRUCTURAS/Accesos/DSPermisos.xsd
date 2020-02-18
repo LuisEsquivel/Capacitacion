@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DSPermisos" targetNamespace="http://tempuri.org/DSPermisos.xsd" xmlns:mstns="http://tempuri.org/DSPermisos.xsd" xmlns="http://tempuri.org/DSPermisos.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="CAP_DBConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="CAP_DBConnectionString (MySettings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.ESTRUCTURAS.My.MySettings.GlobalReference.Default.CAP_DBConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DSPermisos" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DSPermisos" msprop:Generator_UserDSName="DSPermisos">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="TBLPERMISOS" msprop:Generator_TableClassName="TBLPERMISOSDataTable" msprop:Generator_TableVarName="tableTBLPERMISOS" msprop:Generator_TablePropName="TBLPERMISOS" msprop:Generator_RowDeletingName="TBLPERMISOSRowDeleting" msprop:Generator_RowChangingName="TBLPERMISOSRowChanging" msprop:Generator_RowEvHandlerName="TBLPERMISOSRowChangeEventHandler" msprop:Generator_RowDeletedName="TBLPERMISOSRowDeleted" msprop:Generator_UserTableName="TBLPERMISOS" msprop:Generator_RowChangedName="TBLPERMISOSRowChanged" msprop:Generator_RowEvArgName="TBLPERMISOSRowChangeEvent" msprop:Generator_RowClassName="TBLPERMISOSRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="CVE_PERMISO_INT" msprop:Generator_ColumnVarNameInTable="columnCVE_PERMISO_INT" msprop:Generator_ColumnPropNameInRow="CVE_PERMISO_INT" msprop:Generator_ColumnPropNameInTable="CVE_PERMISO_INTColumn" msprop:Generator_UserColumnName="CVE_PERMISO_INT" type="xs:int" />
+              <xs:element name="ACCESO_CLIENTES_BIT" msprop:Generator_ColumnVarNameInTable="columnACCESO_CLIENTES_BIT" msprop:Generator_ColumnPropNameInRow="ACCESO_CLIENTES_BIT" msprop:Generator_ColumnPropNameInTable="ACCESO_CLIENTES_BITColumn" msprop:Generator_UserColumnName="ACCESO_CLIENTES_BIT" type="xs:boolean" minOccurs="0" />
+              <xs:element name="ACEESO_COTIZACIONES_BIT" msprop:Generator_ColumnVarNameInTable="columnACEESO_COTIZACIONES_BIT" msprop:Generator_ColumnPropNameInRow="ACEESO_COTIZACIONES_BIT" msprop:Generator_ColumnPropNameInTable="ACEESO_COTIZACIONES_BITColumn" msprop:Generator_UserColumnName="ACEESO_COTIZACIONES_BIT" type="xs:boolean" minOccurs="0" />
+              <xs:element name="ACCESO_PRODUCTOS_BIT" msprop:Generator_ColumnVarNameInTable="columnACCESO_PRODUCTOS_BIT" msprop:Generator_ColumnPropNameInRow="ACCESO_PRODUCTOS_BIT" msprop:Generator_ColumnPropNameInTable="ACCESO_PRODUCTOS_BITColumn" msprop:Generator_UserColumnName="ACCESO_PRODUCTOS_BIT" type="xs:boolean" minOccurs="0" />
+              <xs:element name="ACCESO_SUCURSALES_BIT" msprop:Generator_ColumnVarNameInTable="columnACCESO_SUCURSALES_BIT" msprop:Generator_ColumnPropNameInRow="ACCESO_SUCURSALES_BIT" msprop:Generator_ColumnPropNameInTable="ACCESO_SUCURSALES_BITColumn" msprop:Generator_UserColumnName="ACCESO_SUCURSALES_BIT" type="xs:boolean" minOccurs="0" />
+              <xs:element name="ACCESO_USUARIOS_BIT" msprop:Generator_ColumnVarNameInTable="columnACCESO_USUARIOS_BIT" msprop:Generator_ColumnPropNameInRow="ACCESO_USUARIOS_BIT" msprop:Generator_ColumnPropNameInTable="ACCESO_USUARIOS_BITColumn" msprop:Generator_UserColumnName="ACCESO_USUARIOS_BIT" type="xs:boolean" minOccurs="0" />
+              <xs:element name="ACCESO_VENTAS_BIT" msprop:Generator_ColumnVarNameInTable="columnACCESO_VENTAS_BIT" msprop:Generator_ColumnPropNameInRow="ACCESO_VENTAS_BIT" msprop:Generator_ColumnPropNameInTable="ACCESO_VENTAS_BITColumn" msprop:Generator_UserColumnName="ACCESO_VENTAS_BIT" type="xs:boolean" minOccurs="0" />
+              <xs:element name="ACCESO_ROLES_BIT" msprop:Generator_ColumnVarNameInTable="columnACCESO_ROLES_BIT" msprop:Generator_ColumnPropNameInRow="ACCESO_ROLES_BIT" msprop:Generator_ColumnPropNameInTable="ACCESO_ROLES_BITColumn" msprop:Generator_UserColumnName="ACCESO_ROLES_BIT" type="xs:boolean" minOccurs="0" />
+              <xs:element name="ACCESO_REPORTE_VENTAS_BIT" msprop:Generator_ColumnVarNameInTable="columnACCESO_REPORTE_VENTAS_BIT" msprop:Generator_ColumnPropNameInRow="ACCESO_REPORTE_VENTAS_BIT" msprop:Generator_ColumnPropNameInTable="ACCESO_REPORTE_VENTAS_BITColumn" msprop:Generator_UserColumnName="ACCESO_REPORTE_VENTAS_BIT" type="xs:boolean" minOccurs="0" />
+              <xs:element name="ACCESO_REPORTE_COT_BIT" msprop:Generator_ColumnVarNameInTable="columnACCESO_REPORTE_COT_BIT" msprop:Generator_ColumnPropNameInRow="ACCESO_REPORTE_COT_BIT" msprop:Generator_ColumnPropNameInTable="ACCESO_REPORTE_COT_BITColumn" msprop:Generator_UserColumnName="ACCESO_REPORTE_COT_BIT" type="xs:boolean" minOccurs="0" />
+              <xs:element name="ACCESO_PERMISOS_BIT" msprop:Generator_ColumnVarNameInTable="columnACCESO_PERMISOS_BIT" msprop:Generator_ColumnPropNameInRow="ACCESO_PERMISOS_BIT" msprop:Generator_ColumnPropNameInTable="ACCESO_PERMISOS_BITColumn" msprop:Generator_UserColumnName="ACCESO_PERMISOS_BIT" type="xs:boolean" minOccurs="0" />
+              <xs:element name="ACCESO_PROVEEDORES_BIT" msprop:Generator_ColumnVarNameInTable="columnACCESO_PROVEEDORES_BIT" msprop:Generator_ColumnPropNameInRow="ACCESO_PROVEEDORES_BIT" msprop:Generator_ColumnPropNameInTable="ACCESO_PROVEEDORES_BITColumn" msprop:Generator_UserColumnName="ACCESO_PROVEEDORES_BIT" type="xs:boolean" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:TBLPERMISOS" />
+      <xs:field xpath="mstns:CVE_PERMISO_INT" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

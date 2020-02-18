@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DSProveedores" targetNamespace="http://tempuri.org/DSProveedores.xsd" xmlns:mstns="http://tempuri.org/DSProveedores.xsd" xmlns="http://tempuri.org/DSProveedores.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="CAP_DBConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="CAP_DBConnectionString (MySettings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.ESTRUCTURAS.My.MySettings.GlobalReference.Default.CAP_DBConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DSProveedores" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DSProveedores" msprop:Generator_UserDSName="DSProveedores">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="TBLPROVEEDORES" msprop:Generator_TableClassName="TBLPROVEEDORESDataTable" msprop:Generator_TableVarName="tableTBLPROVEEDORES" msprop:Generator_TablePropName="TBLPROVEEDORES" msprop:Generator_RowDeletingName="TBLPROVEEDORESRowDeleting" msprop:Generator_RowChangingName="TBLPROVEEDORESRowChanging" msprop:Generator_RowEvHandlerName="TBLPROVEEDORESRowChangeEventHandler" msprop:Generator_RowDeletedName="TBLPROVEEDORESRowDeleted" msprop:Generator_UserTableName="TBLPROVEEDORES" msprop:Generator_RowChangedName="TBLPROVEEDORESRowChanged" msprop:Generator_RowEvArgName="TBLPROVEEDORESRowChangeEvent" msprop:Generator_RowClassName="TBLPROVEEDORESRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="CVE_PROVEEDOR_VAR" msprop:Generator_ColumnVarNameInTable="columnCVE_PROVEEDOR_VAR" msprop:Generator_ColumnPropNameInRow="CVE_PROVEEDOR_VAR" msprop:Generator_ColumnPropNameInTable="CVE_PROVEEDOR_VARColumn" msprop:Generator_UserColumnName="CVE_PROVEEDOR_VAR" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="NOMBRE_VAR" msprop:Generator_ColumnVarNameInTable="columnNOMBRE_VAR" msprop:Generator_ColumnPropNameInRow="NOMBRE_VAR" msprop:Generator_ColumnPropNameInTable="NOMBRE_VARColumn" msprop:Generator_UserColumnName="NOMBRE_VAR" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="APELLIDOS_VAR" msprop:Generator_ColumnVarNameInTable="columnAPELLIDOS_VAR" msprop:Generator_ColumnPropNameInRow="APELLIDOS_VAR" msprop:Generator_ColumnPropNameInTable="APELLIDOS_VARColumn" msprop:Generator_UserColumnName="APELLIDOS_VAR" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="RAZON_SOCIAL_VAR" msprop:Generator_ColumnVarNameInTable="columnRAZON_SOCIAL_VAR" msprop:Generator_ColumnPropNameInRow="RAZON_SOCIAL_VAR" msprop:Generator_ColumnPropNameInTable="RAZON_SOCIAL_VARColumn" msprop:Generator_UserColumnName="RAZON_SOCIAL_VAR" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TELEFONO_VAR" msprop:Generator_ColumnVarNameInTable="columnTELEFONO_VAR" msprop:Generator_ColumnPropNameInRow="TELEFONO_VAR" msprop:Generator_ColumnPropNameInTable="TELEFONO_VARColumn" msprop:Generator_UserColumnName="TELEFONO_VAR" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CORREO_VAR" msprop:Generator_ColumnVarNameInTable="columnCORREO_VAR" msprop:Generator_ColumnPropNameInRow="CORREO_VAR" msprop:Generator_ColumnPropNameInTable="CORREO_VARColumn" msprop:Generator_UserColumnName="CORREO_VAR" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="FECHA_ALTA_DATE" msprop:Generator_ColumnVarNameInTable="columnFECHA_ALTA_DATE" msprop:Generator_ColumnPropNameInRow="FECHA_ALTA_DATE" msprop:Generator_ColumnPropNameInTable="FECHA_ALTA_DATEColumn" msprop:Generator_UserColumnName="FECHA_ALTA_DATE" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="FECHA_MOD_DATE" msprop:Generator_ColumnVarNameInTable="columnFECHA_MOD_DATE" msprop:Generator_ColumnPropNameInRow="FECHA_MOD_DATE" msprop:Generator_ColumnPropNameInTable="FECHA_MOD_DATEColumn" msprop:Generator_UserColumnName="FECHA_MOD_DATE" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="CVE_USUARIO_VAR" msprop:Generator_ColumnVarNameInTable="columnCVE_USUARIO_VAR" msprop:Generator_ColumnPropNameInRow="CVE_USUARIO_VAR" msprop:Generator_ColumnPropNameInTable="CVE_USUARIO_VARColumn" msprop:Generator_UserColumnName="CVE_USUARIO_VAR" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CVE_USUARIO_MOD_VAR" msprop:Generator_ColumnVarNameInTable="columnCVE_USUARIO_MOD_VAR" msprop:Generator_ColumnPropNameInRow="CVE_USUARIO_MOD_VAR" msprop:Generator_ColumnPropNameInTable="CVE_USUARIO_MOD_VARColumn" msprop:Generator_UserColumnName="CVE_USUARIO_MOD_VAR" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
