@@ -358,7 +358,6 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <None Include="bin\Debug\Cap.exe.config" />
     <None Include="bin\Release\Cap.exe.config" />
     <None Include="bin\Release\ESTRUCTURAS.dll.config" />
     <None Include="My Project\Application.myapp">
@@ -415,8 +414,6 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="bin\Debug\Cap.exe" />
-    <Content Include="bin\Debug\Cap.pdb" />
     <Content Include="bin\Release\Cap.exe" />
     <Content Include="bin\Release\Cap.pdb" />
     <Content Include="bin\Release\Cap.xml" />
@@ -527,6 +524,7 @@
     <Content Include="Resources\strange.jpg" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="bin\Debug\" />
     <Folder Include="SqlServerTypes\x64\" />
     <Folder Include="SqlServerTypes\x86\" />
   </ItemGroup>
